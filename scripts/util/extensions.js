@@ -77,6 +77,7 @@ function getHumanNodeVersion(abi) {
     case 55: return 'Node.js 8.x';
     case 57: return 'Node.js 8.x';
     case 64: return 'Node.js 10.x';
+    case 72: return 'Node.js 12.x';
     default: return false;
   }
 }
